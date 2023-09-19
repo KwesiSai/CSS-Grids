@@ -8,7 +8,7 @@
 <body>
     <div class="grid">
       <header> This is my porfolio page</header>
-      <aside>
+      <aside class="hoh">
         <h2>What you should know</h2>
         <p> Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Voluptas,
@@ -37,26 +37,35 @@
            quia iste molestiae quibusdam enim!
         </p>
       </article>
+      <aside class="item">
+            dflkajf;lkdja;lkjf 
+            adkjfaskjfsdlkfhadslkfhdfad
+            dfaksjfdlkfadlkjlsdf
+            akldfjadlfkaldkfasfad
+            fdkfjalfkads;flkjlsf
+            dfaljfnadlfal;fj;aljknfladlfaf;lkdjf;aljknflaafl
+            alkfdl;kjaflfldakjf
+
+      </aside>
       <footer>Thank you and have a nice dayy</footer>
     </div>
-    
 </body>
 <style>
     .grid{
         display:grid;
         grid-gap: 40px;
         grid-template-areas:
-        "header header "
-        "aside main"
-        "footer footer  ";
-        grid-template-columns: 1fr 3fr;
+        "header header header"
+        "aside main other"
+        "footer footer footer ";
+        grid-template-columns: 1fr 3fr 1fr;
     
     }
     .grid div{
         padding: 40px;
         color: white;
     }
-    aside{
+    .hoh{
         grid-area: aside;
         font-size: 20px;
         font-family: 'Segoe UI' ;
@@ -78,6 +87,11 @@
         font-size: 50px;
         grid-area: header;
         text-align: center;
+    }
+    .item{
+        padding: 10px;
+        color: black;
+        align-self: end;
     }
     
 </style>
