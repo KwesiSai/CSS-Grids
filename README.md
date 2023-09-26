@@ -22,10 +22,10 @@ Grids are two dimensional containers, unlike flexboxes. flexboxes are one dimens
  Some methods in css grids you will need:
  - Repeat(): This method in grid is used in creating multiple columns, ie: splitting the grid container into columns according to the size or fraction specified.
  - Minmax(): Used in conjunction with the grid-auto-rows or columns. Used to define the minumum height and maximum height of rows in grids, could probably be used to define width for columns as well, we'll see later.
- - Justify Items: justify items seems self explanatory but yeah the point is to justify items in the grid, that is the grid elements, child elements yea. It justifies them column-wise 
- - Aligh Items:
- - Justify Self:
- - Aligh Self:
+ - Justify Items: justify items seems self explanatory but yeah the point is to justify items in the grid, that is the grid elements, child elements yea. It justifies them vertically, yea like a y-axis sort of thing, find out more!
+ - Aligh Items: Basically the x-axis equivalent of justify item.
+ - Justify Self: So justify item does for all items in the parent element, you are styling the parent elements but in the case of justify-self, you are styling just one child element in the grid, same properties as justify items but just on one child element this time around.
+ - Aligh Self: I'm sure you get it, don't you? yea you do smartie
  - Grid-template-columns: This method allows to specify the number and sizing of columns in the grid container, within this method the repeat method could be used as a parameter An example of the grid-template-columns is (1fr, 1fr, 1fr);
  or repeat(3, 1fr). This will create 3 columns of equal sizes. Normally rows are created by default, according to the number of elements in the grid.
  - Grid-auto-rows: This method is used to define the size of tracks in the grid container, specifically the height. 
