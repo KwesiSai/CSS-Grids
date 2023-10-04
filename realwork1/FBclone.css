@@ -102,3 +102,28 @@ input[type="password"]{
     margin-left: 3%;
 
 }
+
+@media  screen and (max-width:700px) {
+    main{
+        grid-template-areas:
+        "header"
+        "part"
+        "apart"
+        "footer" ;
+        margin-left: 10%;
+        margin-top: 0%;
+        justify-content: center;
+    }
+    .left{
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 0;
+    }
+    .right{
+        margin-left: 12%;
+        margin-top: 0;
+        align-self: center;
+    }
+  
+    
+}
