@@ -1,0 +1,110 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: black;
+    color: white;
+} 
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+
+
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+
+}
+.navbar li{
+    padding:  15px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 3px 3px;
+}
+.navbar a:hover{
+    border: solid 3px white;
+}
+.logo{
+    margin-left: 5%;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Rubik Iso', cursive;
+
+}
+.gang{
+    position: relative;
+    margin-top: 3%;
+    font-size: 20px;
+   
+}
+.gang p{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255,0.3);
+    text-align: start;
+    padding:10px 20px;
+    
+}
+.itemshow{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin-right: 70%;
+    margin-left: 8%;
+    margin-top:5%;
+    grid-auto-rows: minmax(200px,auto);
+    
+}
+.itemshow .main{
+    padding: 0 30px ;
+    background-color: white ;/*rgba(255, 255, 255,0.5);*/
+    width: minmax(200px,auto);
+    height: 200px;
+}
+
+.itemshow img{
+    width: 200px;
+    height: 60%;
+    position: relative;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.itemshow .cart{
+    position: relative;
+    padding: 10px;
+    background-color:rgb(29, 32, 32); /*rgb(51, 42, 42);*/
+    text-align: center;
+    margin-left: 0;
+    margin-top: 3%;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight:bolder;
+    border-radius: 5%;
+    
+}
+.itemshow .price{
+    position: relative;
+    margin-top: 3%;
+    padding: 1px 10px;
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+.cart a{
+    text-decoration: none;
+     background-color:rgb(29, 32, 32);/*rgb(51, 42, 42); */
+    
+}
